@@ -1,23 +1,22 @@
 <!doctype html>
 <html lang="tl">
-  <head>
-    <script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/pwabuilder-sw.js');
-  }
-</script>
-    <link rel="manifest" href="/manifest.json">
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Banal na Biblia (Tagalog) - Bible Reader may Text-to-Speech (TTS)</title>
-    <meta name="description" content="Tagalog Bible Reader na may Text-to-Speech (TTS) feature para basahin ang mga talata nang malakas at sunud-sunod." />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  </head>
-  <body class="antialiased">
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/pwabuilder-sw.js');
+    }
+  </script>
+  <link rel="manifest" href="/manifest.json">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Banal na Biblia (Tagalog) - Bible Reader may Text-to-Speech (TTS)</title>
+  <meta name="description" content="Tagalog Bible Reader na may Text-to-Speech (TTS) feature para basahin ang mga talata nang malakas at sunud-sunod." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="antialiased" style="margin: 0; padding: 0; width: 100vw; overflow-x: hidden;">
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
 </html>
-
