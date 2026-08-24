@@ -1,4 +1,15 @@
 {
+  "background_color": "#ffffff",
+  "description": "Tagalog Bible Reader na may Text-to-Speech (TTS) feature para basahin ang mga talata nang malakas at sunud-sunod.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Tagalog Bible Reader",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Tagalog Bible Reader",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "id": "/tagalog-bible",
   "icons": [
     {
       "src": "/launchericon-192x192.png",
