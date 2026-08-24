@@ -1,0 +1,6 @@
+{
+  "name": "Tagalog Bible Reader with TTS",
+  "description": "Tagalog Bible Reader app na may Bible Version Selector (ADB, MBB, SND) at Dual-Engine TTS Audio (Gemini AI TTS na may awtomatikong Web Speech API Fallback para sa libre at walang patid na pagbasa).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
